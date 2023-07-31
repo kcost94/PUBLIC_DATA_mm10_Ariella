@@ -1,0 +1,5 @@
+hub Hub_Public_Data_hs523
+shortLabel Public Data hs523
+longLabel Public Data hs523
+genomesFile genomes.txt
+email hs523@cam.ac.uk

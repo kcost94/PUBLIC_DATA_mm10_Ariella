@@ -1,0 +1,200 @@
+# http://jeremy-bio.gen.private.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/hub.txt
+# http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/hub.txt
+track H3K9me3_WT_Input_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/H3K9me3_WT_INPUT_dedup.bw
+shortLabel H3K9me3_WT_Input
+longLabel H3K9me3_WT_Input_Rowe_2013
+color 190,186,218
+autoScale off
+viewLimits 0:1
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track H3K9me3_KAP1_KO_Input_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/H3K9me3_KAP1_KO_INPUT_dedup.bw
+shortLabel H3K9me3_KAP1_KO_Input
+longLabel H3K9me3_KAP1_KO_Input_Rowe_2013
+color 190,186,218
+autoScale off
+viewLimits 0:1
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track H3K9me3_WT_ChIP_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/H3K9me3_WT_ChIP_dedup.bw
+shortLabel H3K9me3_WT_ChIP
+longLabel H3K9me3_WT_ChIP_Rowe_2013
+color 235,26,61
+autoScale off
+viewLimits 0:1
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track H3K9me3_KAP1_KO_ChIP_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/H3K9me3_KAP1_KO_ChIP_dedup.bw
+shortLabel H3K9me3_KAP1_KO_ChIP
+longLabel H3K9me3_KAP1_KO_ChIP_Rowe_2013
+color 235,26,61
+autoScale off
+viewLimits 0:1
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track ZFP57_WT_BL6
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/ZFP57_WT_BL6_dedup_merged.bw
+shortLabel ZFP57_WT_BL6
+longLabel ZFP57_WT_BL6
+color 95,81,184
+viewLimits 0:4
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track ZFP57_ZFP57KO_BL6
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/ZFP57_ZFP57KO_exB3.5_BL6_dedup_merged.bw
+shortLabel ZFP57_ZFP57KO_BL6
+longLabel ZFP57_ZFP57KO_BL6
+color 95,81,184
+viewLimits 0:4
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track KAP1_WT_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/KAP1_WT_ChIP_dedup.bw
+shortLabel KAP1 WT Rowe 2013
+longLabel KAP1 WT Rowe 2013
+color 64,70,255
+viewLimits 0:4
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track KAP1_WT_Input_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/KAP1_WT_Input_dedup.bw
+shortLabel KAP1 WT Input Rowe 2013
+longLabel KAP1 WT Input Rowe 2013
+color 64,70,255
+viewLimits 0:4
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track KAP1_KAP1KO_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/KAP1_KAP1KO_ChIP_dedup.bw
+shortLabel KAP1 KAP1KO Rowe 2013
+longLabel KAP1 KAP1KO Rowe 2013
+color 64,70,255
+viewLimits 0:4
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track mm10_CpG_density
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigWig/CpGDensity.mm10.bw
+shortLabel mm10_CpG_density
+longLabel mm10_CpG_density
+color 128,177,211
+autoScale on
+alwaysZero on
+smoothingWindow 4
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track ICRs
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/mm10_Imprinted_ICRs.bb
+shortLabel ICRs
+longLabel imprinting control regions
+color 204,0,204
+type bigBed
+
+track ZFP57peaks
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/2018.02.01_ZFP571423peaks_mm10.bb
+shortLabel ZFP57peaks
+longLabel ZFP57 peaks
+color 196,0,196
+type bigBed
+
+track REST_Whyte_2012
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/Whyte_2012_REST_mm10_sorted.bb
+shortLabel REST Whyte
+longLabel REST Whyte 2012
+color 204,0,204
+type bigBed
+
+track CGI_shore
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/mm10_UCSC_CGIshore.bb
+shortLabel CGI shore
+longLabel CGI shore
+color 92,214,88
+type bigBed
+
+# this track is I think Joe and Jenni used, there is a small difference at Rn45s gene in this track compared to the following track 
+# I current prefer to use the the rRNA track below, so this one should not be used
+#track rRNA_Gene_Rmsk
+#bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/mm10_rRNA_Ensembl_Rmsk.bb
+#shortLabel rRNA Gene plus Rmsk
+#longLabel rRNA Gene plus Rmsk
+#color 118,181,245
+#type bigBed
+
+# this track we have merged rRNA repeats (UCSC), rRNA gene (RefSeq + Ensembl)
+track rRNA
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/mm10_rRNA_Clustered.bb
+shortLabel rRNA
+longLabel rRNA
+color 118,181,245
+type bigBed
+
+track KAP1_Rowe_2013
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/KAP1_Rowe_2013_mm10.bb
+shortLabel KAP1 Rowe
+longLabel KAP1 Rowe 2013
+color 44,138,232
+type bigBed
+
+track DNMTTKO_Lorincz
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/Lorincz_DNMTTKO.bb
+shortLabel DNMTTKO Lorincz
+longLabel DNMTTKO Lorincz
+color 206,71,255
+type bigBed
+
+track CAST_SNP_Sanger_Institute
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/CAST_SNPs_PASS.bb
+shortLabel CAST SNP PASS
+longLabel CAST SNP PASS
+color 100,100,100
+type bigBed
